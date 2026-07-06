@@ -1,0 +1,125 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "Website for automation practice" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Website for automation practice" [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link " Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link " Products" [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link " Cart" [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link " Signup / Login" [ref=e23] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e24]: 
+            - text: Signup / Login
+        - listitem [ref=e25]:
+          - link " Test Cases" [ref=e26] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e27]: 
+            - text: Test Cases
+        - listitem [ref=e28]:
+          - link " API Testing" [ref=e29] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e30]: 
+            - text: API Testing
+        - listitem [ref=e31]:
+          - link " Video Tutorials" [ref=e32] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e33]: 
+            - text: Video Tutorials
+        - listitem [ref=e34]:
+          - link " Contact us" [ref=e35] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e36]: 
+            - text: Contact us
+  - generic [ref=e37]:
+    - heading "Contact Us" [level=2] [ref=e41]:
+      - text: Contact
+      - strong [ref=e42]: Us
+    - generic [ref=e43]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - text: "Note: Below contact form is for testing purpose."
+          - link "QA engineer resources" [ref=e47] [cursor=pointer]:
+            - img [ref=e49]
+            - text: QA engineer resources
+        - heading "Get In Touch" [level=2] [ref=e51]
+        - generic [ref=e53]:
+          - textbox "Name" [ref=e55]
+          - textbox "Email" [ref=e57]
+          - textbox "Subject" [ref=e59]
+          - textbox "Your Message Here" [ref=e61]
+          - button "Choose File" [ref=e63]
+          - button "Submit" [ref=e65] [cursor=pointer]
+      - generic [ref=e67]:
+        - heading "Feedback For Us" [level=2] [ref=e68]
+        - generic [ref=e69]:
+          - paragraph [ref=e70]: We really appreciate your response to our website.
+          - paragraph [ref=e71]:
+            - text: Kindly share your feedback with us at
+            - link "feedback@automationexercise.com" [ref=e72] [cursor=pointer]:
+              - /url: mailto:feedback@automationexercise.com
+            - text: .
+          - paragraph [ref=e73]: If you have any suggestion areas or improvements, do let us know. We will definitely work on it.
+          - paragraph [ref=e74]: Thank you
+  - insertion [ref=e76]:
+    - generic [ref=e79]:
+      - heading "These are topics related to the article that might interest you" [level=2] [ref=e81]: Discover more
+      - link "Website automation services" [ref=e82] [cursor=pointer]:
+        - generic "Website automation services" [ref=e83]
+        - img [ref=e85]
+      - link "Contact form testing" [ref=e87] [cursor=pointer]:
+        - generic "Contact form testing" [ref=e88]
+        - img [ref=e90]
+      - link "Software" [ref=e92] [cursor=pointer]:
+        - generic "Software" [ref=e93]
+        - img [ref=e95]
+  - contentinfo [ref=e97]:
+    - generic [ref=e102]:
+      - heading "Subscription" [level=2] [ref=e103]
+      - generic [ref=e104]:
+        - textbox "Your email address" [ref=e105]
+        - button "" [ref=e106] [cursor=pointer]:
+          - generic [ref=e107]: 
+        - paragraph [ref=e108]:
+          - text: Get the most recent updates from
+          - text: our site and be updated your self...
+    - paragraph [ref=e112]: Copyright © 2021 All rights reserved
+    - generic [ref=e114]:
+      - button "Privacy and cookie settings" [ref=e115] [cursor=pointer]
+      - generic [ref=e116]: "Managed by Google. Complies with IAB TCF. CMP ID: 300"
+  - text: 
+  - insertion [ref=e117]:
+    - iframe [ref=e120]:
+      - generic [active] [ref=f102e1]:
+        - generic [ref=f102e6]:
+          - generic [ref=f102e7]:
+            - generic "Automation House" [ref=f102e9]:
+              - link "Automation House - BI i dashboardy w 14 dni" [ref=f102e10] [cursor=pointer]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CWlh16tRKaqiwI5e0-_UP7pfr-QGtpO_YhQG0id6r9xWK_aCEwwEQASD9tJ6VAWDp5MkFoAGnga3NQcgBAakC4GRHKNnlkT6oAwHIA8MEqgSMAk_QisuclUouO8u-xxKyilRGHltZitU447CpF1OZgMBT1B9sSqJ76KUYFJoSXJy1JDKfXTQAVVZHGslUq-FslETaTf5D2TLvjuuniH2W_VdibAaaoGhgucN2kM6CJpGuVKBCwOcMZcbmhHDJs76XGHeN4JVQdzDjaWL30LqodEZAvy5hV-jfDEIPwL3-gJES-QRX1Fhxrwz7uDqJldnMURdXclbLHEVhyLfoAlH4NF58196oDw6i8vtyPq53RKlKaQudUGoXpAqI3nfoDQsei7WMQdoa5rAZraAjCc4xQCg9C91RtTS0KAEuXsJPJjaNz8H6zwqdyxJVV0HbqabbclIm4vCYs-SbrFCRv_fABISE7anSBYgFlpXR-VegBmaAB6e5_awcqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0gg2CIDhgBAQARifAzIIqoKAgICAoAg6EIDAA4CAhICAlK7gA6iHgBBIvf3BOljZoeG6xbyVA2ABsQlryhuMc4Et-YAKAZgLAcgLAaoNAlBMyA0B6g0TCKXW4brFvJUDFRfavggd7ss6H_ANAogOCdgTDdAVAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgKxXxhmIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIqM3husW8lQMVF9q-CB3uyzofEAEYASAAEgKEefD_BwE&num=1&cid=CAQSbwARCiqB1DRkTSJPTq6OVREoZ02Q-udJ93RNWr4lhAceMWgpsX62y5oW8aGV6rcUOUAeXFbw5P3meOew9Sz_hXaq5TM6oy6H0VmoZrgcTrG0GfntpBhlXjEnkD3Y7tS8-jw-mPUx0nVbmeKEMwbD-hgB&sig=AOD64_2ITifm4vYf8Uu2IkAMveU8xx6eCQ&client=ca-pub-1677597403311019&rf=1&nb=0&adurl=https://www.automation.house/%3Fgad_source%3D5%26gad_campaignid%3D23608969878%26gclid%3DEAIaIQobChMIqM3husW8lQMVF9q-CB3uyzofEAEYASAAEgKEefD_BwE
+                - text: Automation House - BI i dashboardy w 14
+                - text: dni
+            - 'link "NoCode/LowCode: mniej klików, mniej błędów, więcej czasu na rozwój firmy. Automation House" [ref=f102e12] [cursor=pointer]':
+              - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CWlh16tRKaqiwI5e0-_UP7pfr-QGtpO_YhQG0id6r9xWK_aCEwwEQASD9tJ6VAWDp5MkFoAGnga3NQcgBAakC4GRHKNnlkT6oAwHIA8MEqgSMAk_QisuclUouO8u-xxKyilRGHltZitU447CpF1OZgMBT1B9sSqJ76KUYFJoSXJy1JDKfXTQAVVZHGslUq-FslETaTf5D2TLvjuuniH2W_VdibAaaoGhgucN2kM6CJpGuVKBCwOcMZcbmhHDJs76XGHeN4JVQdzDjaWL30LqodEZAvy5hV-jfDEIPwL3-gJES-QRX1Fhxrwz7uDqJldnMURdXclbLHEVhyLfoAlH4NF58196oDw6i8vtyPq53RKlKaQudUGoXpAqI3nfoDQsei7WMQdoa5rAZraAjCc4xQCg9C91RtTS0KAEuXsJPJjaNz8H6zwqdyxJVV0HbqabbclIm4vCYs-SbrFCRv_fABISE7anSBYgFlpXR-VegBmaAB6e5_awcqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0gg2CIDhgBAQARifAzIIqoKAgICAoAg6EIDAA4CAhICAlK7gA6iHgBBIvf3BOljZoeG6xbyVA2ABsQlryhuMc4Et-YAKAZgLAcgLAaoNAlBMyA0B6g0TCKXW4brFvJUDFRfavggd7ss6H_ANAogOCdgTDdAVAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgKxXxhmIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIqM3husW8lQMVF9q-CB3uyzofEAEYASAAEgKEefD_BwE&num=1&cid=CAQSbwARCiqB1DRkTSJPTq6OVREoZ02Q-udJ93RNWr4lhAceMWgpsX62y5oW8aGV6rcUOUAeXFbw5P3meOew9Sz_hXaq5TM6oy6H0VmoZrgcTrG0GfntpBhlXjEnkD3Y7tS8-jw-mPUx0nVbmeKEMwbD-hgB&sig=AOD64_2ITifm4vYf8Uu2IkAMveU8xx6eCQ&client=ca-pub-1677597403311019&rf=1&nb=7&adurl=https://www.automation.house/%3Fgad_source%3D5%26gad_campaignid%3D23608969878%26gclid%3DEAIaIQobChMIqM3husW8lQMVF9q-CB3uyzofEAEYASAAEgKEefD_BwE
+          - link "OTWÓRZ" [ref=f102e15] [cursor=pointer]:
+            - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CWlh16tRKaqiwI5e0-_UP7pfr-QGtpO_YhQG0id6r9xWK_aCEwwEQASD9tJ6VAWDp5MkFoAGnga3NQcgBAakC4GRHKNnlkT6oAwHIA8MEqgSMAk_QisuclUouO8u-xxKyilRGHltZitU447CpF1OZgMBT1B9sSqJ76KUYFJoSXJy1JDKfXTQAVVZHGslUq-FslETaTf5D2TLvjuuniH2W_VdibAaaoGhgucN2kM6CJpGuVKBCwOcMZcbmhHDJs76XGHeN4JVQdzDjaWL30LqodEZAvy5hV-jfDEIPwL3-gJES-QRX1Fhxrwz7uDqJldnMURdXclbLHEVhyLfoAlH4NF58196oDw6i8vtyPq53RKlKaQudUGoXpAqI3nfoDQsei7WMQdoa5rAZraAjCc4xQCg9C91RtTS0KAEuXsJPJjaNz8H6zwqdyxJVV0HbqabbclIm4vCYs-SbrFCRv_fABISE7anSBYgFlpXR-VegBmaAB6e5_awcqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAf-6LECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0gg2CIDhgBAQARifAzIIqoKAgICAoAg6EIDAA4CAhICAlK7gA6iHgBBIvf3BOljZoeG6xbyVA2ABsQlryhuMc4Et-YAKAZgLAcgLAaoNAlBMyA0B6g0TCKXW4brFvJUDFRfavggd7ss6H_ANAogOCdgTDdAVAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgKxXxhmIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIqM3husW8lQMVF9q-CB3uyzofEAEYASAAEgKEefD_BwE&num=1&cid=CAQSbwARCiqB1DRkTSJPTq6OVREoZ02Q-udJ93RNWr4lhAceMWgpsX62y5oW8aGV6rcUOUAeXFbw5P3meOew9Sz_hXaq5TM6oy6H0VmoZrgcTrG0GfntpBhlXjEnkD3Y7tS8-jw-mPUx0nVbmeKEMwbD-hgB&sig=AOD64_2ITifm4vYf8Uu2IkAMveU8xx6eCQ&client=ca-pub-1677597403311019&rf=1&nb=8&adurl=https://www.automation.house/%3Fgad_source%3D5%26gad_campaignid%3D23608969878%26gclid%3DEAIaIQobChMIqM3husW8lQMVF9q-CB3uyzofEAEYASAAEgKEefD_BwE
+            - generic [ref=f102e19]:
+              - generic [ref=f102e20]: OTWÓRZ
+              - img [ref=f102e21]
+        - img [ref=f102e26] [cursor=pointer]
+        - button [ref=f102e30] [cursor=pointer]:
+          - img [ref=f102e31]
+        - iframe

@@ -1,0 +1,134 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "Website for automation practice" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Website for automation practice" [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link " Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link " Products" [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link " Cart" [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link " Signup / Login" [ref=e23] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e24]: 
+            - text: Signup / Login
+        - listitem [ref=e25]:
+          - link " Test Cases" [ref=e26] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e27]: 
+            - text: Test Cases
+        - listitem [ref=e28]:
+          - link " API Testing" [ref=e29] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e30]: 
+            - text: API Testing
+        - listitem [ref=e31]:
+          - link " Video Tutorials" [ref=e32] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e33]: 
+            - text: Video Tutorials
+        - listitem [ref=e34]:
+          - link " Contact us" [ref=e35] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e36]: 
+            - text: Contact us
+  - generic [ref=e38]:
+    - list [ref=e40]:
+      - listitem [ref=e41]:
+        - link "Home" [ref=e42] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e43]: Shopping Cart
+    - generic [ref=e48] [cursor=pointer]: Proceed To Checkout
+    - table [ref=e50]:
+      - rowgroup [ref=e51]:
+        - row "Item Description Price Quantity Total" [ref=e52]:
+          - cell "Item" [ref=e53]
+          - cell "Description" [ref=e54]
+          - cell "Price" [ref=e55]
+          - cell "Quantity" [ref=e56]
+          - cell "Total" [ref=e57]
+          - cell [ref=e58]
+      - rowgroup [ref=e59]:
+        - row "Product Image Blue Top Women > Tops Rs. 500 1 Rs. 500 " [ref=e60]:
+          - cell "Product Image" [ref=e61]:
+            - link "Product Image" [ref=e62] [cursor=pointer]:
+              - /url: ""
+              - img "Product Image" [ref=e63]
+          - cell "Blue Top Women > Tops" [ref=e64]:
+            - heading "Blue Top" [level=4] [ref=e65]:
+              - link "Blue Top" [ref=e66] [cursor=pointer]:
+                - /url: /product_details/1
+            - paragraph [ref=e67]: Women > Tops
+          - cell "Rs. 500" [ref=e68]:
+            - paragraph [ref=e69]: Rs. 500
+          - cell "1" [ref=e70]:
+            - button "1" [ref=e71] [cursor=pointer]
+          - cell "Rs. 500" [ref=e72]:
+            - paragraph [ref=e73]: Rs. 500
+          - cell "" [ref=e74]:
+            - generic [ref=e76] [cursor=pointer]: 
+  - contentinfo [ref=e77]:
+    - generic [ref=e82]:
+      - heading "Subscription" [level=2] [ref=e83]
+      - generic [ref=e84]:
+        - textbox "Your email address" [ref=e85]
+        - button "" [ref=e86] [cursor=pointer]:
+          - generic [ref=e87]: 
+        - paragraph [ref=e88]:
+          - text: Get the most recent updates from
+          - text: our site and be updated your self...
+    - paragraph [ref=e92]: Copyright © 2021 All rights reserved
+  - text: 
+  - insertion [ref=e94]:
+    - generic [ref=e97]:
+      - heading "These are topics related to the article that might interest you" [level=2] [ref=e99]: Discover more
+      - link "Automation practice platform" [ref=e100] [cursor=pointer]:
+        - generic "Automation practice platform" [ref=e101]
+        - img [ref=e103]
+      - link "API testing tools" [ref=e105] [cursor=pointer]:
+        - generic "API testing tools" [ref=e106]
+        - img [ref=e108]
+      - link "Automation testing software" [ref=e110] [cursor=pointer]:
+        - generic "Automation testing software" [ref=e111]
+        - img [ref=e113]
+  - insertion [ref=e115]:
+    - iframe [ref=e118]:
+      - generic [active] [ref=f88e1]:
+        - generic [ref=f88e5]:
+          - link [ref=f88e6] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CpDRu49RKauybIu7ix_AP9_K00A6W7e-XhwGOnc6AjxXa2R4QASD9tJ6VAWDp5MkFoAGTt_bRA8gBCakC4GRHKNnlkT6oAwHIA8sEqgTxAU_QmAcJsFuEYq2x6LOExfJX2ZDfUwTec90hfPLXVtWmGY2Vs6pVAS19VQEBpMRE_D5Roav2hVadQF9Dc95bWKKz5huMct8JFsqJ4oABEZkCbTjlRbsCYviae7zj_Z4NVtKhhmgl1OFJc_F9oDm-_Ji5v1LwKFOOrVbTIt0iCrEW7qhSdUsFxVXcLwruUC76GfB5NbigTjJS-p2jinmB4nvbS3F-J9kOBHjluS_nTAHUf56yRXQidKHFTrweMYJm_-uOXr4-NpzMMc3063CtDnoaLXjPsfRAUdkonpuutHmUtmIsWlVMVshFZxhcO8LBvBbABJf9rPnRBYgFhIGy_1agBi6AB9XIiS6oB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDYIgOGAEBABGJ8DMgiqgoCAgICgCDoQgMADgICEgICUruADqIeAEEi9_cE6WJ_ttLfFvJUDYAGxCZuaJevMrBGbgAoBmAsByAsBgAwBogwkYgwKCnBsLnNmZC5hcHBqDAoKcGwuc2ZkLmFwcHgBiAEBkAEBqg0CUEzIDQHqDRMIxJ61t8W8lQMVbvERCB13OQ3q8A0CiA4JuBPkA9gTA4gUA9AVAZgWAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgL8WxguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIrJm1t8W8lQMVbvERCB13OQ3qEAEYASAAEgIoB_D_BwE&num=1&cid=CAQSbwARCiqBBXoLlVaID_10iABAgWLl3srNmMhOTNrQbHTRAtKmXiBs2n56yWgfbUyVUL5p3BCeAoPkwA64lJwVIIq6xLz0wcENKBqoCUcnnvHSSifmz7-GuZljqHE3MiLU_2aHxr2jyln5-FUbLIz9axgB&sig=AOD64_1K1p3yA9YhdYycDfJIdTM4c5IHSg&client=ca-pub-1677597403311019&rf=1&nb=9&adurl=https://sklep.sfd.pl/SFD_-_po_prostu_najlepsze_ceny-k1591.html%3Fgad_source%3D5%26gad_campaignid%3D23352606852%26gclid%3DEAIaIQobChMIrJm1t8W8lQMVbvERCB13OQ3qEAEYASAAEgIoB_D_BwE
+            - img [ref=f88e7]
+          - generic [ref=f88e8]:
+            - link "Taniej już nie będzie" [ref=f88e11] [cursor=pointer]:
+              - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CpDRu49RKauybIu7ix_AP9_K00A6W7e-XhwGOnc6AjxXa2R4QASD9tJ6VAWDp5MkFoAGTt_bRA8gBCakC4GRHKNnlkT6oAwHIA8sEqgTxAU_QmAcJsFuEYq2x6LOExfJX2ZDfUwTec90hfPLXVtWmGY2Vs6pVAS19VQEBpMRE_D5Roav2hVadQF9Dc95bWKKz5huMct8JFsqJ4oABEZkCbTjlRbsCYviae7zj_Z4NVtKhhmgl1OFJc_F9oDm-_Ji5v1LwKFOOrVbTIt0iCrEW7qhSdUsFxVXcLwruUC76GfB5NbigTjJS-p2jinmB4nvbS3F-J9kOBHjluS_nTAHUf56yRXQidKHFTrweMYJm_-uOXr4-NpzMMc3063CtDnoaLXjPsfRAUdkonpuutHmUtmIsWlVMVshFZxhcO8LBvBbABJf9rPnRBYgFhIGy_1agBi6AB9XIiS6oB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDYIgOGAEBABGJ8DMgiqgoCAgICgCDoQgMADgICEgICUruADqIeAEEi9_cE6WJ_ttLfFvJUDYAGxCZuaJevMrBGbgAoBmAsByAsBgAwBogwkYgwKCnBsLnNmZC5hcHBqDAoKcGwuc2ZkLmFwcHgBiAEBkAEBqg0CUEzIDQHqDRMIxJ61t8W8lQMVbvERCB13OQ3q8A0CiA4JuBPkA9gTA4gUA9AVAZgWAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgL8WxguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIrJm1t8W8lQMVbvERCB13OQ3qEAEYASAAEgIoB_D_BwE&num=1&cid=CAQSbwARCiqBBXoLlVaID_10iABAgWLl3srNmMhOTNrQbHTRAtKmXiBs2n56yWgfbUyVUL5p3BCeAoPkwA64lJwVIIq6xLz0wcENKBqoCUcnnvHSSifmz7-GuZljqHE3MiLU_2aHxr2jyln5-FUbLIz9axgB&sig=AOD64_1K1p3yA9YhdYycDfJIdTM4c5IHSg&client=ca-pub-1677597403311019&rf=1&nb=0&adurl=https://sklep.sfd.pl/SFD_-_po_prostu_najlepsze_ceny-k1591.html%3Fgad_source%3D5%26gad_campaignid%3D23352606852%26gclid%3DEAIaIQobChMIrJm1t8W8lQMVbvERCB13OQ3qEAEYASAAEgIoB_D_BwE
+            - link "Sklep SFD" [ref=f88e13] [cursor=pointer]:
+              - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CpDRu49RKauybIu7ix_AP9_K00A6W7e-XhwGOnc6AjxXa2R4QASD9tJ6VAWDp5MkFoAGTt_bRA8gBCakC4GRHKNnlkT6oAwHIA8sEqgTxAU_QmAcJsFuEYq2x6LOExfJX2ZDfUwTec90hfPLXVtWmGY2Vs6pVAS19VQEBpMRE_D5Roav2hVadQF9Dc95bWKKz5huMct8JFsqJ4oABEZkCbTjlRbsCYviae7zj_Z4NVtKhhmgl1OFJc_F9oDm-_Ji5v1LwKFOOrVbTIt0iCrEW7qhSdUsFxVXcLwruUC76GfB5NbigTjJS-p2jinmB4nvbS3F-J9kOBHjluS_nTAHUf56yRXQidKHFTrweMYJm_-uOXr4-NpzMMc3063CtDnoaLXjPsfRAUdkonpuutHmUtmIsWlVMVshFZxhcO8LBvBbABJf9rPnRBYgFhIGy_1agBi6AB9XIiS6oB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDYIgOGAEBABGJ8DMgiqgoCAgICgCDoQgMADgICEgICUruADqIeAEEi9_cE6WJ_ttLfFvJUDYAGxCZuaJevMrBGbgAoBmAsByAsBgAwBogwkYgwKCnBsLnNmZC5hcHBqDAoKcGwuc2ZkLmFwcHgBiAEBkAEBqg0CUEzIDQHqDRMIxJ61t8W8lQMVbvERCB13OQ3q8A0CiA4JuBPkA9gTA4gUA9AVAZgWAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgL8WxguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIrJm1t8W8lQMVbvERCB13OQ3qEAEYASAAEgIoB_D_BwE&num=1&cid=CAQSbwARCiqBBXoLlVaID_10iABAgWLl3srNmMhOTNrQbHTRAtKmXiBs2n56yWgfbUyVUL5p3BCeAoPkwA64lJwVIIq6xLz0wcENKBqoCUcnnvHSSifmz7-GuZljqHE3MiLU_2aHxr2jyln5-FUbLIz9axgB&sig=AOD64_1K1p3yA9YhdYycDfJIdTM4c5IHSg&client=ca-pub-1677597403311019&rf=1&nb=1&adurl=https://sklep.sfd.pl/SFD_-_po_prostu_najlepsze_ceny-k1591.html%3Fgad_source%3D5%26gad_campaignid%3D23352606852%26gclid%3DEAIaIQobChMIrJm1t8W8lQMVbvERCB13OQ3qEAEYASAAEgIoB_D_BwE
+          - link "Twoje ulubione suplementy teraz w świetnych cenach - u nas po prostu się opłaca." [ref=f88e16] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CpDRu49RKauybIu7ix_AP9_K00A6W7e-XhwGOnc6AjxXa2R4QASD9tJ6VAWDp5MkFoAGTt_bRA8gBCakC4GRHKNnlkT6oAwHIA8sEqgTxAU_QmAcJsFuEYq2x6LOExfJX2ZDfUwTec90hfPLXVtWmGY2Vs6pVAS19VQEBpMRE_D5Roav2hVadQF9Dc95bWKKz5huMct8JFsqJ4oABEZkCbTjlRbsCYviae7zj_Z4NVtKhhmgl1OFJc_F9oDm-_Ji5v1LwKFOOrVbTIt0iCrEW7qhSdUsFxVXcLwruUC76GfB5NbigTjJS-p2jinmB4nvbS3F-J9kOBHjluS_nTAHUf56yRXQidKHFTrweMYJm_-uOXr4-NpzMMc3063CtDnoaLXjPsfRAUdkonpuutHmUtmIsWlVMVshFZxhcO8LBvBbABJf9rPnRBYgFhIGy_1agBi6AB9XIiS6oB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDYIgOGAEBABGJ8DMgiqgoCAgICgCDoQgMADgICEgICUruADqIeAEEi9_cE6WJ_ttLfFvJUDYAGxCZuaJevMrBGbgAoBmAsByAsBgAwBogwkYgwKCnBsLnNmZC5hcHBqDAoKcGwuc2ZkLmFwcHgBiAEBkAEBqg0CUEzIDQHqDRMIxJ61t8W8lQMVbvERCB13OQ3q8A0CiA4JuBPkA9gTA4gUA9AVAZgWAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgL8WxguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIrJm1t8W8lQMVbvERCB13OQ3qEAEYASAAEgIoB_D_BwE&num=1&cid=CAQSbwARCiqBBXoLlVaID_10iABAgWLl3srNmMhOTNrQbHTRAtKmXiBs2n56yWgfbUyVUL5p3BCeAoPkwA64lJwVIIq6xLz0wcENKBqoCUcnnvHSSifmz7-GuZljqHE3MiLU_2aHxr2jyln5-FUbLIz9axgB&sig=AOD64_1K1p3yA9YhdYycDfJIdTM4c5IHSg&client=ca-pub-1677597403311019&rf=1&nb=7&adurl=https://sklep.sfd.pl/SFD_-_po_prostu_najlepsze_ceny-k1591.html%3Fgad_source%3D5%26gad_campaignid%3D23352606852%26gclid%3DEAIaIQobChMIrJm1t8W8lQMVbvERCB13OQ3qEAEYASAAEgIoB_D_BwE
+            - text: Twoje ulubione
+            - text: suplementy teraz w
+            - text: świetnych cenach - u nas
+            - text: po prostu się opłaca.
+          - link "Kup Teraz" [ref=f88e18] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CpDRu49RKauybIu7ix_AP9_K00A6W7e-XhwGOnc6AjxXa2R4QASD9tJ6VAWDp5MkFoAGTt_bRA8gBCakC4GRHKNnlkT6oAwHIA8sEqgTxAU_QmAcJsFuEYq2x6LOExfJX2ZDfUwTec90hfPLXVtWmGY2Vs6pVAS19VQEBpMRE_D5Roav2hVadQF9Dc95bWKKz5huMct8JFsqJ4oABEZkCbTjlRbsCYviae7zj_Z4NVtKhhmgl1OFJc_F9oDm-_Ji5v1LwKFOOrVbTIt0iCrEW7qhSdUsFxVXcLwruUC76GfB5NbigTjJS-p2jinmB4nvbS3F-J9kOBHjluS_nTAHUf56yRXQidKHFTrweMYJm_-uOXr4-NpzMMc3063CtDnoaLXjPsfRAUdkonpuutHmUtmIsWlVMVshFZxhcO8LBvBbABJf9rPnRBYgFhIGy_1agBi6AB9XIiS6oB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB_7osQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwDSCDYIgOGAEBABGJ8DMgiqgoCAgICgCDoQgMADgICEgICUruADqIeAEEi9_cE6WJ_ttLfFvJUDYAGxCZuaJevMrBGbgAoBmAsByAsBgAwBogwkYgwKCnBsLnNmZC5hcHBqDAoKcGwuc2ZkLmFwcHgBiAEBkAEBqg0CUEzIDQHqDRMIxJ61t8W8lQMVbvERCB13OQ3q8A0CiA4JuBPkA9gTA4gUA9AVAZgWAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgL8WxguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIrJm1t8W8lQMVbvERCB13OQ3qEAEYASAAEgIoB_D_BwE&num=1&cid=CAQSbwARCiqBBXoLlVaID_10iABAgWLl3srNmMhOTNrQbHTRAtKmXiBs2n56yWgfbUyVUL5p3BCeAoPkwA64lJwVIIq6xLz0wcENKBqoCUcnnvHSSifmz7-GuZljqHE3MiLU_2aHxr2jyln5-FUbLIz9axgB&sig=AOD64_1K1p3yA9YhdYycDfJIdTM4c5IHSg&client=ca-pub-1677597403311019&rf=1&nb=8&adurl=https://sklep.sfd.pl/SFD_-_po_prostu_najlepsze_ceny-k1591.html%3Fgad_source%3D5%26gad_campaignid%3D23352606852%26gclid%3DEAIaIQobChMIrJm1t8W8lQMVbvERCB13OQ3qEAEYASAAEgIoB_D_BwE
+            - generic [ref=f88e20]: Kup Teraz
+        - img [ref=f88e25] [cursor=pointer]
+        - button [ref=f88e29] [cursor=pointer]:
+          - img [ref=f88e30]
+        - iframe
+  - generic [ref=e120]:
+    - button "Privacy and cookie settings" [ref=e121] [cursor=pointer]
+    - generic [ref=e122]: "Managed by Google. Complies with IAB TCF. CMP ID: 300"

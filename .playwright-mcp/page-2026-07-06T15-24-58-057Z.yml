@@ -1,0 +1,35 @@
+- generic [ref=e405]:
+  - banner [ref=e406]:
+    - generic [ref=e407]:
+      - generic [ref=e408]: GREENKART
+      - generic [ref=e410]:
+        - searchbox "Search for Vegetables and Fruits" [ref=e411]
+        - button [ref=e412] [cursor=pointer]
+      - generic [ref=e413]:
+        - link "Get Shortlisted by Recruiters - Take QA Skill Assessments on TechSmartHire" [ref=e414] [cursor=pointer]:
+          - /url: https://techsmarthire.com/
+        - link "Top Deals" [ref=e415] [cursor=pointer]:
+          - /url: "#/offers"
+        - link "Flight Booking" [ref=e416] [cursor=pointer]:
+          - /url: https://rahulshettyacademy.com/dropdownsPractise/
+        - table [ref=e418]:
+          - rowgroup [ref=e419]:
+            - 'row "Items : 0" [ref=e420]':
+              - cell "Items" [ref=e421]
+              - cell ":" [ref=e422]
+              - cell "0" [ref=e423]:
+                - strong [ref=e424]: "0"
+            - 'row "Price : 0" [ref=e425]':
+              - cell "Price" [ref=e426]
+              - cell ":" [ref=e427]
+              - cell "0" [ref=e428]:
+                - strong [ref=e429]: "0"
+        - link "Cart" [ref=e430] [cursor=pointer]:
+          - /url: "#"
+          - img "Cart" [ref=e431]
+  - contentinfo [ref=e482]:
+    - paragraph [ref=e483]:
+      - text: © 2019
+      - strong [ref=e484]: GreenKart
+      - text: "- buy veg and fruits online"
+  - text: ₹ ₹
